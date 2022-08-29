@@ -32,7 +32,9 @@ function Chat({ socket, username, room }) {
   return (
     <div className="chat-window">
       <div className="chat-header">
-        <p>Live Chat</p>
+        {/* <p>Live Chat</p> */}
+        {/* {username}.toUpperCase() */}
+        <p>Wellcome {username} in Live Chat</p>
       </div>
       <div className="chat-body">
         <ScrollToBottom className="message-container">
